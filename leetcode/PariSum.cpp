@@ -7,7 +7,7 @@ using namespace std;
 // vector <int> pairSum(vector <int>& nums , int n, int target) {
 //     vector <int> pair;
 //     for (int i = 0; i < n; i++) {
-//         for (int j = i+1; j < n; j++) {
+//         for (int j = i+1; j < n+1; j++) {
 //             if (nums[i] + nums[j] == target) {
 //                 pair.push_back(nums[i]);
 //                 pair.push_back(nums[j]);
